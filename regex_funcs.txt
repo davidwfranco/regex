@@ -1,0 +1,67 @@
+.+(((?-i)Data(?-i)(ALMA|QUASE).+BR)|((?-i)Metadata(?-i)(CHA).+(BR))|((?-i)Data(?-i)(CHA|FLO).+(CO|MX))|((?-i)Data(?-i)(QUAS).+(MX)))
+
+######################### Text been queried (Actual dir and filenames changed): #########################
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataQUASE_NADABR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAVESBR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataFLORINDABR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAPOLINBR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataALMA_NEGRABR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataQUASE_NADAMX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAVESMX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataFLORINDAMX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAPOLINMX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataALMA_NEGRAMX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataQUASE_NADACO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAVESCO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataFLORINDACO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAPOLINCO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataALMA_NEGRACO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataQUASE_NADAAC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAVESAC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataFLORINDAAC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAPOLINAC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataALMA_NEGRAAC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataQUASE_NADAPE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAVESPE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataFLORINDAPE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAPOLINPE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataALMA_NEGRAPE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataALMA_NEGRA_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataALMA_NEGRA_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_PE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_PE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_PE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_PE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataALMA_NEGRA_PE.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataALMA_NEGRA_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_AC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_AC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_AC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_AC.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataALMA_NEGRA_AC.par
+#########################################################################################################
+
+################################################ Result: ################################################
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAVESBR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportMetadataCHAPOLINBR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataALMA_NEGRA_BR.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataQUASE_NADA_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_MX.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAVES_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataCHAPOLIN_CO.par
+impdp userid=\'/ as sysdba \' PARFILE=/XPTO/LORENIPSUM/Parfiles/TELEVISADB/ImportDataFLORINDA_CO.par
